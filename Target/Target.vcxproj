@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\backup\DeviceDriver\Target\Application.cpp" />
+    <ClCompile Include="Application.cpp" />
     <ClCompile Include="DeviceDriver.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\backup\DeviceDriver\Target\Application.h" />
+    <ClInclude Include="Application.h" />
     <ClInclude Include="DeviceDriver.h" />
     <ClInclude Include="FailException.h" />
     <ClInclude Include="FlashMemoryDevice.h" />
