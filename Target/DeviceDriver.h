@@ -1,5 +1,6 @@
 #pragma once
 #include "FlashMemoryDevice.h"
+#include "FailException.h"
 
 class DeviceDriver
 {
@@ -10,4 +11,8 @@ public:
 
 protected:
     FlashMemoryDevice* m_hardware;
+
+private:
+    static const int READ_RETRY_COUNT = 5;
+    static const unsigned char DATA_VALUE_ERASED = 0xFF;
 };

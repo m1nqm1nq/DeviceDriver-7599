@@ -24,6 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DeviceDriver.h" />
+    <ClInclude Include="FailException.h" />
     <ClInclude Include="FlashMemoryDevice.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
